@@ -20,7 +20,7 @@
   }],
   "repository": {
     "type": "git",
-    "url": "git@github.com:brentvatne/react-native-linear-gradient.git"
+    "url": "git+https://github.com/MaxRis/react-native-linear-gradient.git#desktop-platform-v230"
   },
   "dependencies": {
     "prop-types": "^15.5.10"

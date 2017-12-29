@@ -2,13 +2,16 @@
 	"name": "AnimatedGradient",
 	"version": "0.0.1",
 	"private": true,
+	"desktopExternalModules": [
+		"node_modules/react-native-linear-gradient/desktop"
+	],
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
 	},
 	"dependencies": {
-    "react": "16.0.0-alpha.6",
-    "react-native": "^0.44.0",
+		"react": "^16.0.0",
+		"react-native": "git+https://github.com/status-im/react-native-desktop.git#react-native-qt",
 		"react-native-linear-gradient": "file:../.."
 	},
 	"devDependencies": {
